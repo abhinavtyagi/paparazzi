@@ -26,6 +26,8 @@
 		DA92BF2D135224F900411453 /* P.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA92BF2B135224F900411453 /* P.jpg */; };
 		DA92BF2E135224F900411453 /* P1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA92BF2C135224F900411453 /* P1.jpg */; };
 		DA92BF3B1352256C00411453 /* F_ICON.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA92BF3A1352256C00411453 /* F_ICON.jpg */; };
+		DA92BF871352340200411453 /* README in Resources */ = {isa = PBXBuildFile; fileRef = DA92BF861352340200411453 /* README */; };
+		DA92BF8C1352353400411453 /* Assignment 4_Paparazzi1-1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DA92BF8B1352353400411453 /* Assignment 4_Paparazzi1-1.pdf */; };
 		DA97F1941349D79A00F7D187 /* FullScreenPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA97F1931349D79A00F7D187 /* FullScreenPhotoViewController.m */; };
 		DA97F1961349D81300F7D187 /* FullScreenPhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA97F1951349D81300F7D187 /* FullScreenPhotoViewController.xib */; };
 		DA97F19C1349DA7F00F7D187 /* TableCellData.m in Sources */ = {isa = PBXBuildFile; fileRef = DA97F19B1349DA7F00F7D187 /* TableCellData.m */; };
@@ -68,6 +70,8 @@
 		DA92BF2B135224F900411453 /* P.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = P.jpg; sourceTree = "<group>"; };
 		DA92BF2C135224F900411453 /* P1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = P1.jpg; sourceTree = "<group>"; };
 		DA92BF3A1352256C00411453 /* F_ICON.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = F_ICON.jpg; sourceTree = "<group>"; };
+		DA92BF861352340200411453 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		DA92BF8B1352353400411453 /* Assignment 4_Paparazzi1-1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Assignment 4_Paparazzi1-1.pdf"; sourceTree = "<group>"; };
 		DA97F1921349D79A00F7D187 /* FullScreenPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullScreenPhotoViewController.h; sourceTree = "<group>"; };
 		DA97F1931349D79A00F7D187 /* FullScreenPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullScreenPhotoViewController.m; sourceTree = "<group>"; };
 		DA97F1951349D81300F7D187 /* FullScreenPhotoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FullScreenPhotoViewController.xib; sourceTree = "<group>"; };
@@ -124,12 +128,14 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				DA92BF8B1352353400411453 /* Assignment 4_Paparazzi1-1.pdf */,
 				DAB17454134639C1002AF644 /* VCs */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				DA92BF861352340200411453 /* README */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -318,6 +324,8 @@
 				DA92BF2D135224F900411453 /* P.jpg in Resources */,
 				DA92BF2E135224F900411453 /* P1.jpg in Resources */,
 				DA92BF3B1352256C00411453 /* F_ICON.jpg in Resources */,
+				DA92BF871352340200411453 /* README in Resources */,
+				DA92BF8C1352353400411453 /* Assignment 4_Paparazzi1-1.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

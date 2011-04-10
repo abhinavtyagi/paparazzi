@@ -117,13 +117,14 @@
 
 #pragma mark -
 #pragma mark nav controller del implementation
-/*
+
 - (void)navigationController:(UINavigationController *)navigationController willShowViewController:(UIViewController *)viewController animated:(BOOL)animated
 {
 	NSLog(@"Nav Controller abt to show!");
 	[self.m_tableViewOutlet reloadData];
 }
-*/
+
+
 #pragma mark -
 #pragma mark Other methods
 - (UIImage *) selfScaleUIImage: (UIImage *) aSrcImage scaledWidth:(float) aWidth andHeight:(float) aHeight

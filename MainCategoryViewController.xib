@@ -39,11 +39,11 @@
 					<object class="IBUIImageView" id="139878507">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">274</int>
-						<string key="NSFrame">{{20, 13}, {128, 128}}</string>
+						<string key="NSFrame">{{20, 55}, {100, 100}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
-						<int key="IBUIContentMode">1</int>
+						<int key="IBUIContentMode">2</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<object class="NSCustomResource" key="IBUIImage">
 							<string key="NSClassName">NSImage</string>
@@ -53,11 +53,11 @@
 					<object class="IBUIImageView" id="167084958">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">274</int>
-						<string key="NSFrame">{{31, 170}, {105, 100}}</string>
+						<string key="NSFrame">{{20, 180}, {100, 100}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
-						<int key="IBUIContentMode">1</int>
+						<int key="IBUIContentMode">2</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<object class="NSCustomResource" key="IBUIImage">
 							<string key="NSClassName">NSImage</string>
@@ -67,11 +67,11 @@
 					<object class="IBUIImageView" id="64939487">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">274</int>
-						<string key="NSFrame">{{20, 285}, {128, 128}}</string>
+						<string key="NSFrame">{{20, 313}, {100, 100}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
-						<int key="IBUIContentMode">1</int>
+						<int key="IBUIContentMode">2</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<object class="NSCustomResource" key="IBUIImage">
 							<string key="NSClassName">NSImage</string>
@@ -130,7 +130,7 @@
 					<object class="IBUIButton" id="557644477">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{156, 333}, {72, 37}}</string>
+						<string key="NSFrame">{{156, 318}, {72, 37}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
@@ -182,7 +182,7 @@
 					<object class="IBUILabel" id="388060910">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{156, 304}, {57, 21}}</string>
+						<string key="NSFrame">{{156, 289}, {57, 21}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -262,14 +262,14 @@
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="139878507"/>
-							<reference ref="64939487"/>
-							<reference ref="167084958"/>
 							<reference ref="813987738"/>
 							<reference ref="388060910"/>
 							<reference ref="757408536"/>
 							<reference ref="557644477"/>
 							<reference ref="136006091"/>
 							<reference ref="572024865"/>
+							<reference ref="64939487"/>
+							<reference ref="167084958"/>
 						</object>
 						<reference key="parent" ref="360949347"/>
 					</object>

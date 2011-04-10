@@ -24,7 +24,7 @@
 									@"L6.jpg",@"L7.jpg",@"L8.jpg",nil];
     PhotoViewController *landscapeView = [[PhotoViewController alloc] init];
 	landscapeView.m_cellObjectsArray = [PhotoViewController cellObjectsArrayWithImageNamesArray:landscapeNamesArray];
-	[landscapeView setTitle:@"Landscapes>"];
+	[landscapeView setTitle:@"Landscapes"];
 	[self.navigationController pushViewController:landscapeView animated:YES];
 	[landscapeView release];
 }
@@ -33,7 +33,7 @@
 	NSArray * planetsNamesArray = [NSArray arrayWithObjects:@"P1.jpg", @"P2.jpg", nil];
     PhotoViewController *planetView = [[PhotoViewController alloc] init];
 	planetView.m_cellObjectsArray = [PhotoViewController cellObjectsArrayWithImageNamesArray:planetsNamesArray];
-	planetView.title = @"Planets>";
+	planetView.title = @"Planets";
 	[self.navigationController pushViewController:planetView animated:YES];
 	[planetView release];
 }

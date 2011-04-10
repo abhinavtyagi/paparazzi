@@ -229,8 +229,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -283,8 +281,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>3</integer>
-									<integer>2</integer>
+									<integer>10</integer>
+									<integer>6</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -320,12 +318,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MainCategoryViewController.m</string>
+								<string>PhotoViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -333,11 +333,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>MainCategoryViewController.m</string>
+										<string>PhotoViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>DA92BF351352250100411453</string>
+										<string>DA92BF821352336700411453</string>
 										<key>history</key>
 										<array>
 											<string>DAB174A6134644CC002AF644</string>
@@ -351,7 +351,6 @@
 											<string>DA6BBE3C13466360009453C0</string>
 											<string>DA6BBEB713466D77009453C0</string>
 											<string>DA85418C1346CFAF002CB128</string>
-											<string>DA85418D1346CFAF002CB128</string>
 											<string>DA97F1AA1349DC4600F7D187</string>
 											<string>DA938692134A05020047C708</string>
 											<string>DA9386E6134A38360047C708</string>
@@ -365,14 +364,18 @@
 											<string>DA66928E134F58160028F2DB</string>
 											<string>DA6692BD134F5E3B0028F2DB</string>
 											<string>DA6692BE134F5E3B0028F2DB</string>
-											<string>DA92BE911352188700411453</string>
 											<string>DA92BEA11352199A00411453</string>
 											<string>DA92BEA21352199A00411453</string>
-											<string>DA92BEB313521A2800411453</string>
-											<string>DA92BEB513521A2800411453</string>
 											<string>DA92BF02135222DA00411453</string>
-											<string>DA92BF301352250100411453</string>
-											<string>DA92BF311352250100411453</string>
+											<string>DA92BF4A1352301400411453</string>
+											<string>DA92BF6C1352332000411453</string>
+											<string>DA92BF6D1352332000411453</string>
+											<string>DA92BF6E1352332000411453</string>
+											<string>DA92BF6F1352332000411453</string>
+											<string>DA92BF701352332000411453</string>
+											<string>DA92BF711352332000411453</string>
+											<string>DA92BF721352332000411453</string>
+											<string>DA92BF4B1352301400411453</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -409,6 +412,23 @@
 											<string>DA92BF321352250100411453</string>
 											<string>DA92BF331352250100411453</string>
 											<string>DA92BF341352250100411453</string>
+											<string>DA92BF4D1352301400411453</string>
+											<string>DA92BF4E1352301400411453</string>
+											<string>DA92BF4F1352301400411453</string>
+											<string>DA92BF501352301400411453</string>
+											<string>DA92BF511352301400411453</string>
+											<string>DA92BF731352332000411453</string>
+											<string>DA92BF741352332000411453</string>
+											<string>DA92BF751352332000411453</string>
+											<string>DA92BF761352332000411453</string>
+											<string>DA92BF771352332000411453</string>
+											<string>DA92BF781352332000411453</string>
+											<string>DA92BF791352332000411453</string>
+											<string>DA92BF7A1352332000411453</string>
+											<string>DA92BF7B1352332000411453</string>
+											<string>DA92BF7C1352332000411453</string>
+											<string>DA92BF7D1352332000411453</string>
+											<string>DA92BF7E1352332000411453</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -602,6 +622,10 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>DA92BF5A1352301400411453</string>
+		<string>DA92BF5B1352301400411453</string>
+		<string>1C78EAAD065D492600B07095</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>DAB1744F134639AD002AF644</string>
 		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>/Users/manojsharma/gitrepositories/example1/github/Paprazzi_git/Paparazzi.xcodeproj</string>
@@ -806,13 +830,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>DA92BE63135215A700411453</string>
+				<string>DA92BF531352301400411453</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>DA92BE64135215A700411453</string>
-				<string>DA92BE65135215A700411453</string>
-				<string>DA92BE66135215A700411453</string>
-				<string>DA92BE67135215A700411453</string>
-				<string>DA92BE68135215A700411453</string>
+				<string>DA92BF541352301400411453</string>
+				<string>DA92BF551352301400411453</string>
+				<string>DA92BF561352301400411453</string>
+				<string>DA92BF571352301400411453</string>
+				<string>DA92BF581352301400411453</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -931,8 +955,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -968,7 +990,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>DA92BE69135215A700411453</string>
+				<string>DA92BF591352301400411453</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>

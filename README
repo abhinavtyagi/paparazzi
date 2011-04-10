@@ -1,0 +1,6 @@
+This code is started with an objective to develop 'Paparazzi' application for iPhone as mentioned by CS193P. See the pdf "Assignment%204_Paparazzi1-1.pdf" file.
+currently it is in intermediate state and will be re-written after i will be thorough with the concepts.
+
+Here we dont have stuff like contacts etc. but we do have a simple Navigation and tab bar controllers to set up correctly.
+
+In current phase, the application crashes when we go from full screen view directly to the main navigation controller view by pressing the tab button twice. I am not aware of the problem and i intend to fix it.
