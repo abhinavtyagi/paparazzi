@@ -11,7 +11,7 @@
 
 @implementation MainCategoryViewController
 - (IBAction)showFlowerAction:(id)sender {
-	NSArray *flowerNamesArray = [NSArray arrayWithObjects:@"F1.jpg",@"F2.jpg",@"F3.jpg",@"F_ICON.png",@"F5.jpg",@"F6.jpg",nil];
+	NSArray *flowerNamesArray = [NSArray arrayWithObjects:@"F1.jpg",@"F2.jpg",@"F3.jpg",@"F_ICON.jpg",@"F5.jpg",@"F6.jpg",nil];
     PhotoViewController *flowerView = [[PhotoViewController alloc] init];
 	flowerView.m_cellObjectsArray = [PhotoViewController cellObjectsArrayWithImageNamesArray:flowerNamesArray];
 	[self.navigationController pushViewController:flowerView animated:YES];
@@ -30,7 +30,7 @@
 }
 
 - (IBAction)showPlanets:(id)sender {
-	NSArray * planetsNamesArray = [NSArray arrayWithObjects:@"P1.png", @"P2.jpg", nil];
+	NSArray * planetsNamesArray = [NSArray arrayWithObjects:@"P1.jpg", @"P2.jpg", nil];
     PhotoViewController *planetView = [[PhotoViewController alloc] init];
 	planetView.m_cellObjectsArray = [PhotoViewController cellObjectsArrayWithImageNamesArray:planetsNamesArray];
 	planetView.title = @"Planets>";
