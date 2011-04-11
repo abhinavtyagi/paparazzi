@@ -12,14 +12,14 @@
 @implementation PaparazziAppDelegate
 
 @synthesize window;
-
+@synthesize tabController;
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {    
 
     // Override point for customization after application launch
-	UITabBarController * tabController = [[UITabBarController alloc] init];
+	tabController = [[UITabBarController alloc] init];
 	
-	navController = [[UINavigationController alloc] init];
+	UINavigationController *navController = [[UINavigationController alloc] init];
 	MainCategoryViewController * mainCatVC = [[MainCategoryViewController alloc] init];
 	[navController pushViewController:mainCatVC animated:NO];
 	[mainCatVC setTitle:@"Contacts"];
@@ -36,6 +36,7 @@
 
 - (void)dealloc {
 	//[navController release];
+	[tabController release];
     [window release];
     [super dealloc];
 }

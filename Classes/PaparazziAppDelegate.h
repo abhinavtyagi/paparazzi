@@ -10,11 +10,11 @@
 
 @interface PaparazziAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
-	UINavigationController * navController;
-
+	UITabBarController * tabController;
 }
-
+@property (retain, nonatomic) UITabBarController * tabController;
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 
 @end
+
 
